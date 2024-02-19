@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container" >
+    <h2 id="login">Login</h2>
+    <form action="">
+      <div class="input div">
+        <label for="name" class="username">Username</label>
+        <div class="userarea">
+          <input type="text"id="name"
+            placeholder="Type your username">
+        </div>
+        <hr>
+        <label for="password" class="password">Password</label>
+        <div class="userarea">
+          <input type="password"id="password"
+            placeholder="Type your password">
+        </div>
+        <hr>
+      <span>Forgot Password</span>
+      <br>
+      <br>
+        <button type="button" onclick="redirectToMainPage()">Login</button>
+      <p>Don't have an account?</p>
+      <center><a href="reg.html" style="color: black;">Register here</a></center>
+      <center>
+      <ul>
+          <a href="https://www.faceboook.com" target="_blank"><li><img src="fblogo.png" width="70" border-radius: "50%"</li></a>
+          <a href="https://www.twitter.com" target="_blank"><li><img src="twit.png" width="50" border-radius: "50%"</li></a>
+          <a href="https://www.google.com" target="_blank">
+              <li><img src="googlelogo.png" width="50" border-radius: "50%"</li>
+          </a>
+      </ul>
+      </center>
+    </form
+  </div>
+  <script>
+    function redirectToMainPage() {
+      location.href = 'mainpage.html';
+    }
+  </script>
+</body>
+
+</html>
